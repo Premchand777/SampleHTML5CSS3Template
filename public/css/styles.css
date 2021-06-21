@@ -1,0 +1,126 @@
+body {
+  background-color: #d5def6;
+  color: #eaeffa;
+  font-family: 'Baloo Tammudu 2', cursive;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 65%;
+  margin: auto;
+  background: #172e69;
+}
+
+header h1 {
+  padding: 25px 10px;
+  margin-bottom: 0;
+}
+
+.navbar {
+  background-color: #c0cef1;
+  margin: auto 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 20px 20px 20px 0px;
+  margin-top: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: #172e69;
+  text-decoration: none;
+  padding: 20px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav ul li a:hover {
+  color: #c0cef1;
+  background-color: #172e69;
+}
+
+nav ul li a.active {
+  color: #c0cef1;
+  background-color: #172e69;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mainContent {
+  width: 65%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sideContent {
+  width: 25%;
+  margin-left: 70px;
+  background: #c0cef1;
+  color: #172e69;
+  padding: 10px;
+}
+
+.mainContent, .sideContent {
+  float: left;
+}
+
+footer {
+  margin: auto 10px 10px;
+  overflow: auto;
+}
+
+footer p {
+  padding: 25px;
+  background: #c0cef1;
+  color: #172e69;
+  text-align: center;
+}
+
+.servAnchor {
+  text-decoration: none;
+  color: #172e69;
+  background: #c0cef1;
+  display: inline-block;
+  padding: 10px;
+}
+
+.servHr {
+  border-style: none none dashed none;
+  border-width: 3px;
+}
+
+.contactForm input, textarea {
+  display: block;
+  width: 100%;
+}
+
+.contactForm input {
+  height: 30px;
+}
+
+.contactForm button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Baloo Tammudu 2', cursive;
+  color: #172e69;
+  font-weight: bold;
+  border: none;
+}
+
+main {
+  margin: auto auto 35px;
+}
